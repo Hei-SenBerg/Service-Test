@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/redd"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/iv_annuler"
+            android:layout_weight="0"
+            android:src="@drawable/ic_cancel_red"
+            android:layout_height="40dip"
+            android:layout_width="40dip" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gris_fonce"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/tv_annuler"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blanc"
+            android:background="@drawable/customborder"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_height="40dip" />
+
+        <View
+            android:id="@+id/iv_space"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_width="25dip"></View>
+
+        <TextView
+            android:id="@+id/tv_appliquer"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blanc"
+            android:background="@drawable/customborder"
+            android:gravity="center"
+            android:layout_height="40dip" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

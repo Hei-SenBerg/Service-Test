@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transp">#00000000</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="blanc_transp_33">#33ffffff</color>
+    <color name="blanc_transp_99">#99ffffff</color>
+    <color name="blanc_transp_cc">#ccffffff</color>
+    <color name="gris_tres_claire">#f5f5f5</color>
+    <color name="gris_claire">#c6c6c6</color>
+    <color name="gris_claire_transp_22">#22999999</color>
+    <color name="gris_claire_transp_cc">#cc999999</color>
+    <color name="gris_fonce">#4b575f</color>
+    <color name="gris_fonce_transp_90">#904b575f</color>
+    <color name="black">#000000</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="black_transp_80">#C8000000</color>
+
+    <color name="background_tab_pressed">#66273481</color>
+    <string name="blanc">#FFFFFF</string>
+    <string name="red">#A40F26</string>
+    <color name="redd">#AE1028</color>
+    <color name="colorPrimary">#AE1028</color>
+    <color name="red_trans">#F7E7E9</color>
+    <color name="red_black">#660716</color>
+    <color name="colorAccent">#660716</color>
+    <color name="colorPrimaryDark">#9c9b9b</color>
+
+    <color name="cP">#3F51B5</color>
+    <color name="cPD">#44E6C6</color>
+    <color name="cA">#FF4081</color>
+
+    <color name="purple">#4A47A7</color>
+    <color name="golden">#ffdf00</color>
+
+</resources>
